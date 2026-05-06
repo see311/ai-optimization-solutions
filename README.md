@@ -44,7 +44,7 @@ ai-optimization-solutions/
 | MemOS - Hermes记忆外挂插件 | Hermes Agent 的记忆系统外挂方案 |
 | Memory架构与思考 | Agent Memory 的本质与核心设计思路 |
 
-### RAG检索增强 (4篇)
+### RAG检索增强 (5篇)
 
 | 文章 | 简介 |
 |------|------|
@@ -52,6 +52,7 @@ ai-optimization-solutions/
 | RAG检索失效全链路排查 | 检索失效的四大根源及全链路排查方法 |
 | 封神级RAG优化实战 | Query 改写与 Prompt 构建的实战技巧 |
 | 超越RAG | Spring Boot 构建上下文感知 AI 系统 |
+| RAG深度解析与五大框架对比 | RAG核心原理、技术拆解及Haystack/LlamaIndex/LangChain/Dify/FAISS五大框架对比 |
 
 ### LLM网关架构 (1篇)
 
