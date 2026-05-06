@@ -100,7 +100,32 @@ docs/{分类}/{文章名}/总结.md
 2. 更新该分类的文章计数（如 "(3篇)" → "(4篇)"）
 3. 如果是新建分类，在目录结构和内容概览中均添加该分类
 
-### 第 7 步：提交
+### 第 7 步：更新 index.html
+
+提交文章后，需要同步更新 `index.html`，在对应分类卡片中添加新文章的链接。
+
+**文章条目格式**（插入到对应分类的 `<ul class="article-list">` 内，最后一个 `</li>` 之后）：
+
+```html
+<li class="article-item">
+    <a href="docs/{URL编码的分类名}/{URL编码的文章名}/总结.md" class="article-link">
+        <span class="article-icon">📝</span>
+        <div class="article-info">
+            <div class="article-name">文章名</div>
+            <div class="article-desc">文章简介</div>
+        </div>
+    </a>
+</li>
+```
+
+**更新要点**：
+1. 找到 `index.html` 中对应分类的 `<ul class="article-list">` 区域
+2. 在该区域最后一个 `</li>` 后插入新文章条目
+3. 更新该分类卡片的 `<div class="category-count">` 中的文章计数（如 "3 篇文章" → "4 篇文章"）
+4. 如果是新建分类，需要在 `index.html` 中新增一个完整的分类卡片（包含图标、标题、计数、文章列表），参照现有分类卡片的 HTML 结构
+5. href 中的路径需要对中文和特殊字符进行 URL 编码（如空格 → `%20`，中文 → `%E4%B8%AD` 等）
+
+### 第 8 步：提交
 
 Commit message 格式：
 
@@ -126,7 +151,12 @@ docs: 新分类{分类名} - {文章名} [new-category]
 - [ ] 分类已确定（匹配已有 / 新建）
 - [ ] 文章目录包含 `原文.md` 和 `总结.md`
 - [ ] `README.md` 已更新（文章条目 + 计数）
+- [ ] `index.html` 已更新（文章条目 + 计数）
 - [ ] Commit message 符合格式
+
+### 第 9 步：提交后的检查
+
+确认所有文件已正确提交后，可通过 GitHub Pages 或直接访问仓库验证页面显示是否正常。
 
 ## 异常处理
 
