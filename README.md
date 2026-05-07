@@ -30,11 +30,12 @@ ai-optimization-solutions/
 | AgentSkills-谷歌工程规范封装 | 谷歌开源 23000+ Star 的 Agent Skills 技能包 |
 | MiniMax-Skills-AI编程技能包 | MiniMax 官方的生产级开发技能包 |
 
-### Agent智能体设计 (3篇)
+### Agent智能体设计 (4篇)
 
 | 文章 | 简介 |
 |------|------|
 | Claude Code - 13个Agentic设计模式 | 从 Claude Code 源码拆解的 13 个可直接复用的设计模式 |
+| 一文讲清Agent-Model-Harness | Agent = Model + Harness，Harness 工程的本质与核心组件解析 |
 | Codex 数据智能体 | OpenAI 内部数据智能体的六层上下文架构 |
 | 吃透Agent三大范式 | ReAct、Plan-and-Execute、Reflection三大范式深度解析 |
 
