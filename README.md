@@ -64,10 +64,11 @@ ai-optimization-solutions/
 |------|------|
 | LLM-Gateway生产级架构设计 | 三层架构、四大路由策略、四层故障降级 |
 
-### AI工具 (3篇)
+### AI工具 (4篇)
 
 | 文章 | 简介 |
 |------|------|
+| hugohe3-ppt-master - AI PPT制作利器 | 11681 Stars，AI PPT 一键生成，支持 Microsoft PowerPoint |
 | PaddleOCR - 国产OCR神器 | 75.8K Star 的国产 OCR 开源项目 |
 | TigerFS | 将 PostgreSQL 挂载为文件系统 |
 | Kami - AI文档排版利器 | 4.6K Star 的开源 AI 排版项目，让文档精致又好看 |
