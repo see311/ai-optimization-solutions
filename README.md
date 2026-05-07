@@ -45,7 +45,7 @@ ai-optimization-solutions/
 | MemOS - Hermes记忆外挂插件 | Hermes Agent 的记忆系统外挂方案 |
 | Memory架构与思考 | Agent Memory 的本质与核心设计思路 |
 
-### RAG检索增强 (5篇)
+### RAG检索增强 (6篇)
 
 | 文章 | 简介 |
 |------|------|
