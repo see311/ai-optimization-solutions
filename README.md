@@ -21,10 +21,11 @@ ai-optimization-solutions/
 
 ## 内容概览
 
-### AI编程工具-Skills (3篇)
+### AI编程工具-Skills (4篇)
 
 | 文章 | 简介 |
 |------|------|
+| 浏览器自动化 - 从GUI到OpenCLI | 放弃不稳定的UI自动化，用API请求复现解决浏览器自动化难题 |
 | 7个AI前端设计Skill去AI味 | 去除 AI 生成界面的"AI味"，7个实测好用的设计 Skill |
 | AgentSkills-谷歌工程规范封装 | 谷歌开源 23000+ Star 的 Agent Skills 技能包 |
 | MiniMax-Skills-AI编程技能包 | MiniMax 官方的生产级开发技能包 |
@@ -55,6 +56,7 @@ ai-optimization-solutions/
 | 封神级RAG优化实战 | Query 改写与 Prompt 构建的实战技巧 |
 | 超越RAG | Spring Boot 构建上下文感知 AI 系统 |
 | RAG深度解析与五大框架对比 | RAG核心原理、技术拆解及Haystack/LlamaIndex/LangChain/Dify/FAISS五大框架对比 |
+| 从60到94-11个进阶RAG策略 | 11个进阶RAG策略，从60%提升到94%准确率 |
 
 ### LLM网关架构 (1篇)
 
@@ -78,5 +80,3 @@ ai-optimization-solutions/
 - 每篇文章按 `原文.md` + `总结.md` 结构保存
 - 总结末尾标注使用的模型（如"总结使用: xxx模型"）
 - 文件夹名称用简短总结命名
-
-## 开源应用
