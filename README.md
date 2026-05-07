@@ -46,10 +46,11 @@ ai-optimization-solutions/
 | MemOS - Hermes记忆外挂插件 | Hermes Agent 的记忆系统外挂方案 |
 | Memory架构与思考 | Agent Memory 的本质与核心设计思路 |
 
-### RAG检索增强 (7篇)
+### RAG检索增强 (8篇)
 
 | 文章 | 简介 |
 |------|------|
+| 分层Agentic-RAG系统-多模态推理与自主纠错 | Supervisor-Worker分层拓扑 + Reflective Retry，84.5%准确率 |
 | Agentic RAG正成为新范式 | 传统 RAG 到 Agentic RAG 的范式转变，智能检索让模型主动探索 |
 | RAG-Anything | 港大开源万能 RAG 框架，支持 PDF、图片、视频等多模态 |
 | RAG检索失效全链路排查 | 检索失效的四大根源及全链路排查方法 |
