@@ -11,25 +11,21 @@
             padding: 0;
             box-sizing: border-box;
         }
-
         body {
             font-family: 'Inter', 'Noto Sans SC', -apple-system, sans-serif;
             background: #0a0a0f;
             color: #e4e4e7;
             line-height: 1.6;
         }
-
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 60px 24px;
         }
-
         header {
             text-align: center;
             margin-bottom: 80px;
         }
-
         .badge {
             display: inline-block;
             padding: 6px 16px;
@@ -40,7 +36,6 @@
             color: #a5b4fc;
             margin-bottom: 24px;
         }
-
         h1 {
             font-size: 48px;
             font-weight: 700;
@@ -49,43 +44,36 @@
             -webkit-text-fill-color: transparent;
             margin-bottom: 16px;
         }
-
         .subtitle {
             font-size: 18px;
             color: #71717a;
             max-width: 600px;
             margin: 0 auto;
         }
-
         .stats {
             display: flex;
             justify-content: center;
             gap: 48px;
             margin-top: 40px;
         }
-
         .stat {
             text-align: center;
         }
-
         .stat-number {
             font-size: 36px;
             font-weight: 700;
             color: #6366f1;
         }
-
         .stat-label {
             font-size: 14px;
             color: #71717a;
             margin-top: 4px;
         }
-
         .categories {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
             gap: 24px;
         }
-
         .category {
             background: linear-gradient(145deg, #12121a 0%, #0d0d12 100%);
             border: 1px solid rgba(255, 255, 255, 0.06);
@@ -93,12 +81,10 @@
             padding: 32px;
             transition: all 0.3s ease;
         }
-
         .category:hover {
             border-color: rgba(99, 102, 241, 0.3);
             transform: translateY(-4px);
         }
-
         .category-icon {
             width: 48px;
             height: 48px;
@@ -110,33 +96,27 @@
             font-size: 24px;
             margin-bottom: 20px;
         }
-
         .category-title {
             font-size: 20px;
             font-weight: 600;
             color: #fff;
             margin-bottom: 8px;
         }
-
         .category-count {
             font-size: 13px;
             color: #6366f1;
             margin-bottom: 20px;
         }
-
         .article-list {
             list-style: none;
         }
-
         .article-item {
             padding: 14px 0;
             border-bottom: 1px solid rgba(255, 255, 255, 0.04);
         }
-
         .article-item:last-child {
             border-bottom: none;
         }
-
         .article-link {
             display: flex;
             align-items: flex-start;
@@ -145,11 +125,9 @@
             color: inherit;
             transition: color 0.2s;
         }
-
         .article-link:hover {
             color: #a5b4fc;
         }
-
         .article-icon {
             flex-shrink: 0;
             width: 24px;
@@ -162,22 +140,18 @@
             font-size: 12px;
             margin-top: 2px;
         }
-
         .article-info {
             flex: 1;
         }
-
         .article-name {
             font-size: 14px;
             font-weight: 500;
             margin-bottom: 2px;
         }
-
         .article-desc {
             font-size: 12px;
             color: #71717a;
         }
-
         footer {
             text-align: center;
             margin-top: 80px;
@@ -186,16 +160,13 @@
             color: #52525b;
             font-size: 14px;
         }
-
         footer a {
             color: #6366f1;
             text-decoration: none;
         }
-
         footer a:hover {
             text-decoration: underline;
         }
-
         @media (max-width: 768px) {
             h1 {
                 font-size: 32px;
@@ -227,19 +198,27 @@
                     <div class="stat-label">分类</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-number">18</div>
+                    <div class="stat-number">19</div>
                     <div class="stat-label">文章</div>
                 </div>
             </div>
         </header>
-
         <div class="categories">
             <!-- AI编程工具-Skills -->
             <div class="category">
                 <div class="category-icon">⚡</div>
                 <div class="category-title">AI编程工具-Skills</div>
-                <div class="category-count">3 篇文章</div>
+                <div class="category-count">4 篇文章</div>
                 <ul class="article-list">
+                    <li class="article-item">
+                        <a href="docs/AI%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7-Skills/%E6%B5%8F%E8%A7%86%E5%99%A8%E8%87%AA%E5%8A%A8%E5%8C%96-%E4%BB%8EGUI%E5%88%B0OpenCLI/%E6%80%BB%E7%BB%93.md" class="article-link">
+                            <span class="article-icon">📝</span>
+                            <div class="article-info">
+                                <div class="article-name">浏览器自动化 - 从GUI到OpenCLI</div>
+                                <div class="article-desc">放弃不稳定的UI自动化，用API请求复现解决浏览器自动化难题</div>
+                            </div>
+                        </a>
+                    </li>
                     <li class="article-item">
                         <a href="docs/AI%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7-Skills/7%E4%B8%AAAI%E5%89%8D%E7%AB%AF%E8%AE%BE%E8%AE%A1Skill%E5%8E%BBAI%E5%91%B3/%E6%80%BB%E7%BB%93.md" class="article-link">
                             <span class="article-icon">📝</span>
@@ -269,7 +248,6 @@
                     </li>
                 </ul>
             </div>
-
             <!-- Agent智能体设计 -->
             <div class="category">
                 <div class="category-icon">🤖</div>
@@ -305,7 +283,6 @@
                     </li>
                 </ul>
             </div>
-
             <!-- 记忆系统Memory -->
             <div class="category">
                 <div class="category-icon">🧠</div>
@@ -341,12 +318,11 @@
                     </li>
                 </ul>
             </div>
-
             <!-- RAG检索增强 -->
             <div class="category">
                 <div class="category-icon">🔍</div>
                 <div class="category-title">RAG检索增强</div>
-                <div class="category-count">8 篇文章</div>
+                <div class="category-count">7 篇文章</div>
                 <ul class="article-list">
                     <li class="article-item">
                         <a href="docs/RAG%E6%A3%80%E7%B4%A2%E5%A2%9E%E5%BC%BA/RAG-Anything-%E6%B8%AF%E5%A4%A7%E5%BC%80%E6%BA%90%E4%B8%87%E8%83%BDRAG%E6%A1%86%E6%9E%B6/%E6%80%BB%E7%BB%93.md" class="article-link">
@@ -413,7 +389,6 @@
                     </li>
                 </ul>
             </div>
-
             <!-- LLM网关架构 -->
             <div class="category">
                 <div class="category-icon">🌉</div>
@@ -431,7 +406,6 @@
                     </li>
                 </ul>
             </div>
-
             <!-- AI工具 -->
             <div class="category">
                 <div class="category-icon">🛠️</div>
@@ -468,7 +442,6 @@
                 </ul>
             </div>
         </div>
-
         <footer>
             <p>由 <a href="https://github.com/see311/ai-optimization-solutions">see311/ai-optimization-solutions</a> 维护</p>
         </footer>
