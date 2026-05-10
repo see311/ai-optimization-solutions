@@ -30,6 +30,7 @@ ai-optimization-solutions/
 | AgentSkills-谷歌工程规范封装 | 谷歌开源 23000+ Star 的 Agent Skills 技能包 |
 | Book2Skill重新定义RAG把PDF变成Claude的skill | 把PDF文档转化为AI可调用的结构化技能包 |
 | MiniMax-Skills-AI编程技能包 | MiniMax 官方的生产级开发技能包 |
+| [Anthropic-12个生产级Agent-MCP设计模式](./docs/AI工具/Anthropic-12个生产级Agent-MCP设计模式/) | Anthropic官方MCP设计模式，Agent生产级连接，5组12个模式 |
 
 ### Agent智能体设计 (4篇)
 
