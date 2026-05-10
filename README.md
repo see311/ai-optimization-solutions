@@ -21,7 +21,7 @@ ai-optimization-solutions/
 
 ## 内容概览
 
-### AI编程工具-Skills (5篇)
+### AI编程工具-Skills (6篇)
 
 | 文章 | 简介 |
 |------|------|
@@ -32,7 +32,7 @@ ai-optimization-solutions/
 | MiniMax-Skills-AI编程技能包 | MiniMax 官方的生产级开发技能包 |
 | [Anthropic-12个生产级Agent-MCP设计模式](./docs/AI工具/Anthropic-12个生产级Agent-MCP设计模式/) | Anthropic官方MCP设计模式，Agent生产级连接，5组12个模式 |
 
-### Agent智能体设计 (4篇)
+### Agent智能体设计 (6篇)
 
 | 文章 | 简介 |
 |------|------|
@@ -40,6 +40,8 @@ ai-optimization-solutions/
 | 一文讲清Agent-Model-Harness | Agent = Model + Harness，Harness 工程的本质与核心组件解析 |
 | Codex 数据智能体 | OpenAI 内部数据智能体的六层上下文架构 |
 | 吃透Agent三大范式 | ReAct、Plan-and-Execute、Reflection三大范式深度解析 |
+| [Subagents指南，Agent Registry + Task Dispatcher 多智能体协作秘籍](./docs/Agent智能体设计/Subagents指南-Agent-Registry与Task-Dispatcher/) | LangChain Subagents模式，中心化多智能体协作架构详解 |
+| [Harness之后，Agent领域下一个焦点：Skills与可控工程化落地](./docs/Agent智能体设计/Harness之后-Skills与可控工程化落地/) | Agent Skills与Harness Engineering，Agent工程化落地方案 |
 
 ### 记忆系统Memory (3篇)
 
