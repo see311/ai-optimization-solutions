@@ -73,7 +73,7 @@ ai-optimization-solutions/
 |------|------|
 | LLM-Gateway生产级架构设计 | 三层架构、四大路由策略、四层故障降级 |
 
-### AI工具 (7篇)
+### AI工具 (8篇)
 
 | 文章 | 简介 |
 |------|------|
@@ -83,6 +83,7 @@ ai-optimization-solutions/
 | Claude-Design开源替代Open-Design | Claude Design 的开源替代方案 |
 | Kami-AI排版项目 | 4.6K Star 的开源 AI 排版项目，让文档精致又好看 |
 | Anthropic-12个生产级Agent-MCP设计模式 | Anthropic官方MCP设计模式，Agent生产级连接，5组12个模式 |
+| context-mode-上下文压缩方案 | GitHub 2天暴涨13k，98%上下文压缩，MCP Server解决上下文爆炸 |
 | SkillClaw-高德团队开源技能进化框架 | 高德团队开源的 Agent 技能进化框架 |
 
 ## 贡献
