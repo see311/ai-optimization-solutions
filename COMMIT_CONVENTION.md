@@ -78,6 +78,24 @@ GET /repos/{owner}/{repo}/git/trees/{branch}?recursive=1
 
 > 以上仅为参考，Agent 应根据文章核心内容灵活判断，不局限于关键词匹配。
 
+#### ⚠️ 分类归属易混淆场景
+
+以下场景容易导致分类错误，提交时必须特别注意：
+
+| 场景 | 易错分类 | 正确分类 | 判断依据 |
+|------|---------|---------|---------|
+| 以编程工具为名，但核心分析 Agent 架构/Loop/设计模式 | AI编程工具-Skills | Agent智能体设计 | 文章核心讨论的是 Agent 运行机制、Loop 设计、Memory 系统架构等，而非工具使用方法 |
+| 以 Agent 框架为名，但核心讲工具使用技巧 | Agent智能体设计 | AI编程工具-Skills | 文章核心讨论的是如何使用某工具/技能包，而非 Agent 设计原理 |
+| 同时涉及工具和架构 | 需判断 | 看哪部分占比更大 | 若架构分析>50%归入Agent智能体设计；若工具使用>50%归入AI编程工具-Skills |
+
+**判别原则：看文章的"分析深度"而非"工具名称"。**
+- ❌ 错误：文章标题含"Code/Copilot/Tool"→归入AI编程工具-Skills
+- ✅ 正确：文章分析了 Agent Loop、Memory、Hooks 等架构机制→归入Agent智能体设计
+
+**历史案例**：
+- 《从AgentLoop深度拆解MiniCode》→ 曾误归入AI编程工具-Skills，实际核心是Agent Loop三大机制设计 → 已更正为Agent智能体设计
+- 《深度解析ClaudeCode底层架构》→ 曾误归入AI编程工具-Skills，实际核心是Agent系统、Memory系统架构 → 已更正为Agent智能体设计
+
 ### 第 4 步：新建分类（如需要）
 
 如果第 3 步判定需要新建分类：
