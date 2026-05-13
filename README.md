@@ -31,7 +31,7 @@ ai-optimization-solutions/
 | Book2Skill重新定义RAG把PDF变成Claude的skill | 把PDF文档转化为AI可调用的结构化技能包 |
 | MiniMax-Skills-AI编程技能包 | MiniMax 官方的生产级开发技能包 |
 
-### Agent智能体设计 (9篇)
+### Agent智能体设计 (8篇)
 
 | 文章 | 简介 |
 |------|------|
