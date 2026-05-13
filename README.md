@@ -53,7 +53,7 @@ ai-optimization-solutions/
 | MemOS-Hermes记忆外挂插件 | Hermes Agent 的记忆系统外挂方案 |
 | memory-architecture-thinking | Agent Memory 的本质与核心设计思路 |
 
-### RAG检索增强 (11篇)
+### RAG检索增强 (12篇)
 
 | 文章 | 简介 |
 |------|------|
@@ -67,6 +67,7 @@ ai-optimization-solutions/
 | 超越RAG-SpringBoot构建上下文感知AI系统 | Spring Boot 构建上下文感知 AI 系统 |
 | Corpus2Skill-告别检索直接导航知识库 | "编译时换查询时"的设计哲学，给 Agent 一张地图让它自己导航 |
 | 从60到94-11个进阶RAG策略 | 11个进阶RAG策略，从60%提升到94%准确率 |
+| codegraph-rust-纯Rust实现的代码GraphRAG | 100% Rust 实现代码知识图谱，AST高速解析 + SurrealDB，打造AI代码助手超强大脑 |
 | RAG深度解析与五大框架对比 | RAG核心原理、技术拆解及Haystack/LlamaIndex/LangChain/Dify/FAISS五大框架对比 |
 
 ### LLM网关架构 (1篇)
