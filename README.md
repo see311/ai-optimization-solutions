@@ -21,7 +21,7 @@ ai-optimization-solutions/
 
 ## 内容概览
 
-### AI编程工具-Skills (6篇)
+### AI编程工具-Skills (7篇)
 
 | 文章 | 简介 |
 |------|------|
@@ -30,7 +30,8 @@ ai-optimization-solutions/
 | AgentSkills-谷歌工程规范封装 | 谷歌开源 23000+ Star 的 Agent Skills 技能包 |
 | Book2Skill重新定义RAG把PDF变成Claude的skill | 把PDF文档转化为AI可调用的结构化技能包 |
 | MiniMax-Skills-AI编程技能包 | MiniMax 官方的生产级开发技能包 |
-| 从AgentLoop深度拆解MiniCode | Mini Code深度拆解Claude Code核心架构，Agent Loop三大机制设计解析 |
+| 从AgentLoop深度拆解MiniCode |
+| [深度解析ClaudeCode-AI编码助手的底层架构与工作原理](docs/AI%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7-Skills/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90ClaudeCode-AI%E7%BC%96%E7%A0%81%E5%8A%A9%E6%89%8B%E7%9A%84%E5%BA%95%E5%B1%82%E6%9E%B6%E6%9E%84%E4%B8%8E%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/总结.md) | 深度解析Claude Code核心架构，Agent系统、Prompt系统、Memory系统、上下文管理、Hooks扩展机制 | Mini Code深度拆解Claude Code核心架构，Agent Loop三大机制设计解析 |
 
 ### Agent智能体设计 (6篇)
 
