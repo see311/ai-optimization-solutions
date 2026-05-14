@@ -72,7 +72,6 @@ ai-optimization-solutions/
 | PaddleOCR-国产OCR神器 | 75.8K Star 的国产 OCR 开源项目 |
 | TigerFS-PostgreSQL挂载为文件系统 | 将 PostgreSQL 挂载为文件系统 |
 | Claude-Design开源替代Open-Design | Claude Design 的开源替代方案 |
-|
 | Kami-AI排版项目 | 4.6K Star 的开源 AI 排版项目，让文档精致又好看 |
 | beautiful-html-templates开源PPT模板库 | 32 套专业 HTML 幻灯片模板，Zara Zhang 和 Claude 联合开发 |
 ## 贡献
