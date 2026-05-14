@@ -63,7 +63,7 @@ ai-optimization-solutions/
 | 文章 | 简介 |
 |------|------|
 | LLM-Gateway生产级架构设计 | 三层架构、四大路由策略、四层故障降级 |
-### AI工具 (7篇)
+### AI工具 (8篇)
 | 文章 | 简介 |
 |------|------|
 | CloakBrowser-10K-Stars反爬虫Stealth浏览器 | 10K Stars开源反检测Chromium浏览器，30/30 Bot检测全过 |
@@ -72,7 +72,9 @@ ai-optimization-solutions/
 | PaddleOCR-国产OCR神器 | 75.8K Star 的国产 OCR 开源项目 |
 | TigerFS-PostgreSQL挂载为文件系统 | 将 PostgreSQL 挂载为文件系统 |
 | Claude-Design开源替代Open-Design | Claude Design 的开源替代方案 |
+|
 | Kami-AI排版项目 | 4.6K Star 的开源 AI 排版项目，让文档精致又好看 |
+| beautiful-html-templates开源PPT模板库 | 32 套专业 HTML 幻灯片模板，Zara Zhang 和 Claude 联合开发 |
 ## 贡献
 欢迎提交 AI 优化相关的解决方案和实战经验！
 格式要求：
