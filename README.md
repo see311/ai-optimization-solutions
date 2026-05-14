@@ -23,7 +23,7 @@ ai-optimization-solutions/
 | AgentSkills-谷歌工程规范封装 | 谷歌开源 23000+ Star 的 Agent Skills 技能包 |
 | Book2Skill重新定义RAG把PDF变成Claude的skill | 把PDF文档转化为AI可调用的结构化技能包 |
 | MiniMax-Skills-AI编程技能包 | MiniMax 官方的生产级开发技能包 |
-### Agent智能体设计 (11篇)
+### Agent智能体设计 (12篇)
 | 文章 | 简介 |
 |------|------|
 | NekroAgent跨平台Agent框架 | 开源跨平台多用户Agent框架，支持QQ/Discord/Minecraft/Bilibili等多平台接入 |
@@ -38,6 +38,7 @@ ai-optimization-solutions/
 | [深度解析ClaudeCode-AI编码助手的底层架构与工作原理](docs/Agent%E6%99%BA%E8%83%BD%E4%BD%93%E8%AE%BE%E8%AE%A1/%E6%B7%B1%E5%BA%A8%E6%9E%90ClaudeCode-AI%E7%BC%96%E7%A0%81%E5%8A%A9%E6%89%8B%E7%9A%84%E5%BA%95%E5%B1%82%E6%9E%B6%E6%9E%84%E4%B8%8E%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/总结.md) | 深度解析Claude Code核心架构，Agent系统、Prompt系统、Memory系统、上下文管理、Hooks扩展机制 |
 | Anthropic-12个生产级Agent-MCP设计模式 | Anthropic官方MCP设计模式，Agent生产级连接，5组12个模式 |
 | SkillClaw-高德团队开源技能进化框架 | 高德团队开源的技能集体进化框架，双循环架构实现Agent自动进化 |
+| [Personal AI Infrastructure让AI辅助人类工作](docs/Agent%E6%99%BA%E8%83%BD%E4%BD%93%E8%AE%BE%E8%AE%A1/Personal-AI-Infrastructure%E8%AE%A9AI%E8%BE%85%E5%8A%A9%E4%BA%BA%E7%B1%BB%E5%B7%A5%E4%BD%9C/%E6%80%BB%E7%BB%93.md) | TypeScript AI 应用基础设施框架，记忆增强 + 多Agent协调 + 可观测性追踪 |
 ### 记忆系统Memory (3篇)
 | 文章 | 简介 |
 |------|------|
