@@ -89,6 +89,7 @@ ai-optimization-solutions/
 | Claude-Design开源替代Open-Design | Claude Design 的开源替代方案 |
 | Kami-AI排版项目 | 4.6K Star 的开源 AI 排版项目，让文档精致又好看 |
 | context-mode-上下文压缩方案 | GitHub 2天暴涨13k，98%上下文压缩，MCP Server解决上下文爆炸 |
+| beautiful-html-templates开源PPT模板库 | 32套HTML幻灯片模板，专为AI编码助手设计，自然语言生成高颜值演示文稿 |
 
 ## 贡献
 
