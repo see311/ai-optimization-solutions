@@ -1,9 +1,6 @@
 # AI 优化解决方案
-
 AI 相关优化技术的实战经验与解决方案合集，涵盖 Agent 设计、RAG 检索、记忆系统、LLM 网关等多个方向。
-
 ## 目录结构
-
 ```
 ai-optimization-solutions/
 └── docs/
@@ -14,15 +11,11 @@ ai-optimization-solutions/
     ├── LLM网关架构/               # LLM 网关与生产级架构
     └── AI工具/                    # AI 相关工具与开源项目
 ```
-
 每篇文章目录下包含：
 - `原文.md` — 原始文章内容
 - `总结.md` — 整理后的核心要点
-
 ## 内容概览
-
 ### AI编程工具-Skills (5篇)
-
 | 文章 | 简介 |
 |------|------|
 | 浏览器自动化-从GUI到OpenCLI | 放弃不稳定的UI自动化，用API请求复现解决浏览器自动化难题 |
@@ -30,9 +23,7 @@ ai-optimization-solutions/
 | AgentSkills-谷歌工程规范封装 | 谷歌开源 23000+ Star 的 Agent Skills 技能包 |
 | Book2Skill重新定义RAG把PDF变成Claude的skill | 把PDF文档转化为AI可调用的结构化技能包 |
 | MiniMax-Skills-AI编程技能包 | MiniMax 官方的生产级开发技能包 |
-
 ### Agent智能体设计 (11篇)
-
 | 文章 | 简介 |
 |------|------|
 | NekroAgent跨平台Agent框架 | 开源跨平台多用户Agent框架，支持QQ/Discord/Minecraft/Bilibili等多平台接入 |
@@ -47,17 +38,13 @@ ai-optimization-solutions/
 | [深度解析ClaudeCode-AI编码助手的底层架构与工作原理](docs/Agent%E6%99%BA%E8%83%BD%E4%BD%93%E8%AE%BE%E8%AE%A1/%E6%B7%B1%E5%BA%A8%E6%9E%90ClaudeCode-AI%E7%BC%96%E7%A0%81%E5%8A%A9%E6%89%8B%E7%9A%84%E5%BA%95%E5%B1%82%E6%9E%B6%E6%9E%84%E4%B8%8E%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/总结.md) | 深度解析Claude Code核心架构，Agent系统、Prompt系统、Memory系统、上下文管理、Hooks扩展机制 |
 | Anthropic-12个生产级Agent-MCP设计模式 | Anthropic官方MCP设计模式，Agent生产级连接，5组12个模式 |
 | SkillClaw-高德团队开源技能进化框架 | 高德团队开源的技能集体进化框架，双循环架构实现Agent自动进化 |
-
 ### 记忆系统Memory (3篇)
-
 | 文章 | 简介 |
 |------|------|
 | Cognee-6行代码搞定AI记忆 | 16K Star 的开源知识引擎，向量+图双引擎驱动 |
 | MemOS-Hermes记忆外挂插件 | Hermes Agent 的记忆系统外挂方案 |
 | memory-architecture-thinking | Agent Memory 的本质与核心设计思路 |
-
 ### RAG检索增强 (12篇)
-
 | 文章 | 简介 |
 |------|------|
 | PageIndex无向量RAG-目录树搜索 | 无向量、基于推理的 RAG 系统，98.7%准确率颠覆传统方案 |
@@ -72,29 +59,22 @@ ai-optimization-solutions/
 | 从60到94-11个进阶RAG策略 | 11个进阶RAG策略，从60%提升到94%准确率 |
 | codegraph-rust-纯Rust实现的代码GraphRAG | 100% Rust 实现代码知识图谱，AST高速解析 + SurrealDB，打造AI代码助手超强大脑 |
 | RAG深度解析与五大框架对比 | RAG核心原理、技术拆解及Haystack/LlamaIndex/LangChain/Dify/FAISS五大框架对比 |
-
 ### LLM网关架构 (1篇)
-
 | 文章 | 简介 |
 |------|------|
 | LLM-Gateway生产级架构设计 | 三层架构、四大路由策略、四层故障降级 |
-
 ### AI工具 (7篇)
-
 | 文章 | 简介 |
 |------|------|
+| CloakBrowser-10K-Stars反爬虫Stealth浏览器 | 10K Stars开源反检测Chromium浏览器，30/30 Bot检测全过 |
+| context-mode-上下文压缩方案 | GitHub 2天暴涨13k，98%上下文压缩，MCP Server解决上下文爆炸 |
 | hugohe3-ppt-master | 11681 Stars，AI PPT 一键生成，支持 Microsoft PowerPoint |
 | PaddleOCR-国产OCR神器 | 75.8K Star 的国产 OCR 开源项目 |
 | TigerFS-PostgreSQL挂载为文件系统 | 将 PostgreSQL 挂载为文件系统 |
 | Claude-Design开源替代Open-Design | Claude Design 的开源替代方案 |
 | Kami-AI排版项目 | 4.6K Star 的开源 AI 排版项目，让文档精致又好看 |
-| context-mode-上下文压缩方案 | GitHub 2天暴涨13k，98%上下文压缩，MCP Server解决上下文爆炸 |
-| beautiful-html-templates开源PPT模板库 | 32套HTML幻灯片模板，专为AI编码助手设计，自然语言生成高颜值演示文稿 |
-
 ## 贡献
-
 欢迎提交 AI 优化相关的解决方案和实战经验！
-
 格式要求：
 - 每篇文章按 `原文.md` + `总结.md` 结构保存
 - 总结末尾标注使用的模型（如"总结使用: xxx模型"）
