@@ -42,9 +42,10 @@ ai-optimization-solutions/
 | Anthropic-12个生产级Agent-MCP设计模式 | Anthropic官方MCP设计模式，Agent生产级连接，5组12个模式 |
 | SkillClaw-高德团队开源技能进化框架 | 高德团队开源的技能集体进化框架，双循环架构实现Agent自动进化 |
 
-### 记忆系统Memory (3篇)
+### 记忆系统Memory (4篇)
 | 文章 | 简介 |
 |------|------|
+| 腾讯开源Agent-Memory-Token降低61% | 上下文卸载+Mermaid任务画布，Token消耗降低61% |
 | Cognee-6行代码搞定AI记忆 | 16K Star 的开源知识引擎，向量+图双引擎驱动 |
 | MemOS-Hermes记忆外挂插件 | Hermes Agent 的记忆系统外挂方案 |
 | memory-architecture-thinking | Agent Memory 的本质与核心设计思路 |
