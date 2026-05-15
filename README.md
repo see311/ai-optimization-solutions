@@ -26,7 +26,7 @@ ai-optimization-solutions/
 | MiniMax-Skills-AI编程技能包 | MiniMax 官方的生产级开发技能包 |
 | Alumnium-AI端到端自动化测试 | AI 驱动端到端测试框架，支持自然语言生成测试用例和断言，覆盖 Playwright/Selenium/Appium |
 
-### Agent智能体设计 (14篇)
+### Agent智能体设计 (15篇)
 | 文章 | 简介 |
 |------|------|
 | NekroAgent跨平台Agent框架 | 开源跨平台多用户Agent框架，支持QQ/Discord/Minecraft/Bilibili等多平台接入 |
