@@ -41,6 +41,7 @@ ai-optimization-solutions/
 | [深度解析ClaudeCode-AI编码助手的底层架构与工作原理](docs/Agent%E6%99%BA%E8%83%BD%E4%BD%93%E8%AE%BE%E8%AE%A1/%E6%B7%B1%E5%BA%A8%E6%9E%90ClaudeCode-AI%E7%BC%96%E7%A0%81%E5%8A%A9%E6%89%8B%E7%9A%84%E5%BA%95%E5%B1%82%E6%9E%B6%E6%9E%84%E4%B8%8E%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/总结.md) | 深度解析Claude Code核心架构，Agent系统、Prompt系统、Memory系统、上下文管理、Hooks扩展机制 |
 | Anthropic-12个生产级Agent-MCP设计模式 | Anthropic官方MCP设计模式，Agent生产级连接，5组12个模式 |
 | SkillClaw-高德团队开源技能进化框架 | 高德团队开源的技能集体进化框架，双循环架构实现Agent自动进化 |
+| [Agent总跑偏从Prompt到Harness彻底搞懂AI执行稳定的核心逻辑](docs/Agent%E6%99%BA%E8%83%BD%E4%BD%93%E8%AE%BE%E8%AE%A1/Agent%E6%80%BB%E8%B5%B0%E5%81%8F%E4%BB%8EPrompt%E5%88%B0Harness%E5%BD%BB%E5%BA%95%E6%90%9E%E6%87%82AI%E6%89%A7%E8%A1%8C%E7%A8%B3%E5%AE%9A%E7%9A%84%E6%A0%B8%E5%BF%83%E9%80%BB%E8%BE%91/%E6%80%BB%E7%BB%93.md) | 从Prompt到Harness，三层工程化手段让Agent稳定执行 |
 | 从PRD到可运行代码-AI软件开发全流水线重构实践 |
 | Qoder工程实践-Harness-Engineering指南 | 仓库是Agent的操作系统，层级约束验证、上下文管理、子代理调度等Harness工程核心机制解析 | 九层分层架构+五大专属Agent，从PRD到可交付的全链路自动化闭环 |
 
