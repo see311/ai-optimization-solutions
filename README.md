@@ -42,8 +42,8 @@ ai-optimization-solutions/
 | Anthropic-12个生产级Agent-MCP设计模式 | Anthropic官方MCP设计模式，Agent生产级连接，5组12个模式 |
 | SkillClaw-高德团队开源技能进化框架 | 高德团队开源的技能集体进化框架，双循环架构实现Agent自动进化 |
 | [Agent总跑偏从Prompt到Harness彻底搞懂AI执行稳定的核心逻辑](docs/Agent%E6%99%BA%E8%83%BD%E4%BD%93%E8%AE%BE%E8%AE%A1/Agent%E6%80%BB%E8%B5%B0%E5%81%8F%E4%BB%8EPrompt%E5%88%B0Harness%E5%BD%BB%E5%BA%95%E6%90%9E%E6%87%82AI%E6%89%A7%E8%A1%8C%E7%A8%B3%E5%AE%9A%E7%9A%84%E6%A0%B8%E5%BF%83%E9%80%BB%E8%BE%91/%E6%80%BB%E7%BB%93.md) | 从Prompt到Harness，三层工程化手段让Agent稳定执行 |
-| 从PRD到可运行代码-AI软件开发全流水线重构实践 |
-| Qoder工程实践-Harness-Engineering指南 | 仓库是Agent的操作系统，层级约束验证、上下文管理、子代理调度等Harness工程核心机制解析 | 九层分层架构+五大专属Agent，从PRD到可交付的全链路自动化闭环 |
+| [从PRD到可运行代码-AI软件开发全流水线重构实践](docs/Agent%E6%99%BA%E8%83%BD%E4%BD%93%E8%AE%BE%E8%AE%A1/%E4%BB%8EPRD%E5%88%B0%E5%8F%AF%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81-AI%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%85%A8%E6%B5%81%E6%B0%B4%E7%BA%BF%E9%87%8D%E6%9E%84%E5%AE%9E%E8%B7%B5/%E6%80%BB%E7%BB%93.md) | 九层分层架构+五大专属Agent，从PRD到可交付的全链路自动化闭环 |
+| [Qoder工程实践-Harness-Engineering指南](docs/Agent%E6%99%BA%E8%83%BD%E4%BD%93%E8%AE%BE%E8%AE%A1/Qoder%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5-Harness-Engineering%E6%8C%87%E5%8D%97/%E6%80%BB%E7%BB%93.md) | 仓库是Agent的操作系统，层级约束验证、上下文管理、子代理调度等Harness工程核心机制解析 |
 
 ### 记忆系统Memory (4篇)
 | 文章 | 简介 |
