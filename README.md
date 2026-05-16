@@ -64,7 +64,7 @@ ai-optimization-solutions/
 | Cognee-6行代码搞定AI记忆 | 16K Star 的开源知识引擎，向量+图双引擎驱动 |
 | MemOS-Hermes记忆外挂插件 | Hermes Agent 的记忆系统外挂方案 |
 | memory-architecture-thinking | Agent Memory 的本质与核心设计思路 |
-### RAG检索增强 (12篇)
+### RAG检索增强 (13篇)
 | 文章 | 简介 |
 |------|------|
 | PageIndex无向量RAG-目录树搜索 | 无向量、基于推理的 RAG 系统，98.7%准确率颠覆传统方案 |
@@ -79,6 +79,7 @@ ai-optimization-solutions/
 | 从60到94-11个进阶RAG策略 | 11个进阶RAG策略，从60%提升到94%准确率 |
 | codegraph-rust-纯Rust实现的代码GraphRAG | 100% Rust 实现代码知识图谱，AST高速解析 + SurrealDB，打造AI代码助手超强大脑 |
 | RAG深度解析与五大框架对比 | RAG核心原理、技术拆解及Haystack/LlamaIndex/LangChain/Dify/FAISS五大框架对比 |
+| 混合搜索+重排序RAG生产环境检索精度提升实战解析 | BM25+稠密向量混合搜索，Cross-Encoder重排序，三阶段生产级流水线 |
 ### LLM网关架构 (1篇)
 | 文章 | 简介 |
 |------|------|
