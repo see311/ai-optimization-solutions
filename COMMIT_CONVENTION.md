@@ -9,6 +9,7 @@ ai-optimization-solutions/
 ├── docs/
 │   ├── AI编程工具-Skills/         # AI 编程工具与 Skills 技能包
 │   ├── Agent智能体设计/           # Agent 智能体架构与设计模式
+│   ├── Harness工程/              # Agent 的外部控制面与工程化约束系统
 │   ├── 记忆系统Memory/            # Agent 记忆系统与持久化方案
 │   ├── RAG检索增强/               # RAG 检索增强与优化实战
 │   ├── LLM网关架构/               # LLM 网关与生产级架构
@@ -71,6 +72,7 @@ GET /repos/{owner}/{repo}/git/trees/{branch}?recursive=1
 |------------|-----------|
 | Skill、技能包、编程工具、开发工具 | AI编程工具-Skills |
 | Agent、智能体、设计模式、Agentic | Agent智能体设计 |
+| Harness、约束工程、执行控制面、Spec、Handoff | Harness工程 |
 | 记忆、Memory、持久化、知识图谱存储 | 记忆系统Memory |
 | RAG、检索、检索增强、向量检索、Embedding | RAG检索增强 |
 | 网关、Gateway、LLM架构、路由、降级 | LLM网关架构 |
@@ -87,6 +89,12 @@ GET /repos/{owner}/{repo}/git/trees/{branch}?recursive=1
 | 以编程工具为名，但核心分析 Agent 架构/Loop/设计模式 | AI编程工具-Skills | Agent智能体设计 | 文章核心讨论的是 Agent 运行机制、Loop 设计、Memory 系统架构等，而非工具使用方法 |
 | 以 Agent 框架为名，但核心讲工具使用技巧 | Agent智能体设计 | AI编程工具-Skills | 文章核心讨论的是如何使用某工具/技能包，而非 Agent 设计原理 |
 | 同时涉及工具和架构 | 需判断 | 看哪部分占比更大 | 若架构分析>50%归入Agent智能体设计；若工具使用>50%归入AI编程工具-Skills |
+| 提到 Harness 但核心讨论 Agent 架构 | Harness工程 | Agent智能体设计 | 文章只是提到 Harness 作为概念引入，但核心分析的是 Agent Loop/协作机制，而非 Harness 控制面/约束机制 |
+| 提到 Agent 但核心讨论 Harness 约束工程 | Agent智能体设计 | Harness工程 | 文章讨论的是如何构建 Agent 的外部控制面、验证沙盒、执行边界约束，而非 Agent 本身的设计模式 |
+
+**Harness工程 vs Agent智能体设计的区分要点：**
+- **Harness工程**：讨论如何构建 Agent 的外部控制面/约束系统，核心是"如何管理 Agent 的非确定性行为"，涉及 Spec/Handoff/Checkpoint/Evaluator、沙盒隔离、层级约束验证等
+- **Agent智能体设计**：讨论 Agent 本身的架构设计，如多 Agent 协作、Agent Loop、执行范式、工具使用模式等
 
 **判别原则：看文章的"分析深度"而非"工具名称"。**
 - ❌ 错误：文章标题含"Code/Copilot/Tool"→归入AI编程工具-Skills
