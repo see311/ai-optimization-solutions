@@ -15,16 +15,17 @@ ai-optimization-solutions/
 - `原文.md` — 原始文章内容
 - `总结.md` — 整理后的核心要点
 ## 内容概览
-### AI编程工具-Skills (6篇)
+### AI编程工具-Skills (7篇)
 | 文章 | 简介 |
 |------|------|
 | 浏览器自动化-从GUI到OpenCLI | 放弃不稳定的UI自动化，用API请求复现解决浏览器自动化难题 |
+| mattpocock-skills-60K-Stars-软件工程经验封装 | 将数十年软件工程经验封装为17个可执行Skill，60K+ Stars神作 |
 | 7个AI前端设计Skill去AI味 | 去除 AI 生成界面的"AI味"，7个实测好用的设计 Skill |
 | AgentSkills-谷歌工程规范封装 | 谷歌开源 23000+ Star 的 Agent Skills 技能包 |
 | Book2Skill重新定义RAG把PDF变成Claude的skill | 把PDF文档转化为AI可调用的结构化技能包 |
 | Alumnium-AI端到端自动化测试 | AI 驱动端到端测试框架，支持自然语言生成测试用例和断言 |
 | MiniMax-Skills-AI编程技能包 | MiniMax 官方的生产级开发技能包 |
-| Alumnium-AI端到端自动化测试 | AI 驱动端到端测试框架，支持自然语言生成测试用例和断言，覆盖 Playwright/Selenium/Appium |
+| html-anything开源让你感受ClaudeCode作者提到的HTML效果 | 开源 HTML 优化工具，告别 AI 生成代码的"HTML味" |
 
 ### Agent智能体设计 (14篇)
 | 文章 | 简介 |
