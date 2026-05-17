@@ -53,6 +53,7 @@ ai-optimization-solutions/
 | 从玩具到生产力-用真实项目讲透AI-Agent的Harness-Engineering | 用真实项目讲透 Agent Harness Engineering，从玩具到生产力的关键路径 |
 | Qoder工程实践-Harness-Engineering指南 | Qoder 工程实践中的 Harness Engineering 指南 |
 | Agent总跑偏从Prompt到Harness彻底搞懂AI执行稳定的核心逻辑 | 从Prompt工程到Harness工程，彻底搞懂AI执行稳定的核心逻辑 |
+| [深挖AI智能体落地痛点-精准定位性能瓶颈掌握全套高效排障方法论](docs/Harness%E5%B7%A5%E7%A8%8B/%E6%B7%B1%E6%8C%96AI%E6%99%BA%E8%83%BD%E4%BD%93%E8%90%BD%E5%9C%B0%E7%97%9B%E7%82%B9-%E7%B2%BE%E5%87%86%E5%AE%9A%E4%BD%8D%E6%80%A7%E8%83%BD%E7%93%B6%E9%A2%88%E6%8E%8C%E6%8F%A1%E5%85%A8%E5%A5%97%E9%AB%98%E6%95%88%E6%8E%92%E9%9A%9C%E6%96%B9%E6%B3%95%E8%AE%BA/%E6%80%BB%E7%BB%93.md) | AI智能体性能瓶颈定位与排障方法论，五大故障类型、七步通用排查法 |
 
 ### 记忆系统Memory (5篇)
 | 文章 | 简介 |
