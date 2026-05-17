@@ -6,7 +6,6 @@ ai-optimization-solutions/
 └── docs/
     ├── AI编程工具-Skills/         # AI 编程工具与 Skills 技能包
     ├── Agent智能体设计/           # Agent 智能体架构与设计模式
-    ├── Harness工程/               # Agent 的外部控制面与工程化约束系统
     ├── 记忆系统Memory/            # Agent 记忆系统与持久化方案
     ├── RAG检索增强/               # RAG 检索增强与优化实战
     ├── LLM网关架构/               # LLM 网关与生产级架构
@@ -16,10 +15,8 @@ ai-optimization-solutions/
 - `原文.md` — 原始文章内容
 - `总结.md` — 整理后的核心要点
 ## 内容概览
-### AI编程工具-Skills (7篇)
+### AI编程工具-Skills (6篇)
 | 文章 | 简介 |
-|------|------|
-| html-anything开源让你感受ClaudeCode作者提到的HTML效果 | Agent时代HTML编辑器，75套Skill模板自动转换内容 |
 |------|------|
 | 浏览器自动化-从GUI到OpenCLI | 放弃不稳定的UI自动化，用API请求复现解决浏览器自动化难题 |
 | 7个AI前端设计Skill去AI味 | 去除 AI 生成界面的"AI味"，7个实测好用的设计 Skill |
@@ -27,44 +24,34 @@ ai-optimization-solutions/
 | Book2Skill重新定义RAG把PDF变成Claude的skill | 把PDF文档转化为AI可调用的结构化技能包 |
 | Alumnium-AI端到端自动化测试 | AI 驱动端到端测试框架，支持自然语言生成测试用例和断言 |
 | MiniMax-Skills-AI编程技能包 | MiniMax 官方的生产级开发技能包 |
-| html-anything开源让你感受ClaudeCode作者提到的HTML效果 | Agent时代HTML编辑器，75套Skill模板自动转换内容 |
-| MiniMax-Skills-AI编程技能包 | MiniMax 官方的生产级开发技能包 |
 | Alumnium-AI端到端自动化测试 | AI 驱动端到端测试框架，支持自然语言生成测试用例和断言，覆盖 Playwright/Selenium/Appium |
 
-### Agent智能体设计 (12篇)
+### Agent智能体设计 (14篇)
 | 文章 | 简介 |
 |------|------|
 | NekroAgent跨平台Agent框架 | 开源跨平台多用户Agent框架，支持QQ/Discord/Minecraft/Bilibili等多平台接入 |
 | ClaudeCode-13个Agentic设计模式 | 从 Claude Code 源码拆解的 13 个可直接复用的设计模式 |
+| 一文讲清Agent-Model-Harness | Agent = Model + Harness，Harness 工程的本质与核心组件解析 |
 | Codex数据智能体-六层上下文架构 | OpenAI 内部数据智能体的六层上下文架构 |
 | 吃透Agent三大范式 | ReAct、Plan-and-Execute、Reflection三大范式深度解析 |
 | Subagents指南-Agent-Registry与Task-Dispatcher | LangChain Subagents模式，中心化多智能体协作架构详解 |
 | [深入源码Hermes-Agent如何实现Self-Improving](docs/Agent%E6%99%BA%E8%83%BD%E4%BD%93%E8%AE%BE%E8%AE%A1/%E6%B7%B1%E5%85%A5%E6%BA%90%E7%A0%81Hermes-Agent%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0Self-Improving/%E6%80%BB%E7%BB%93.md) | Hermes Agent Self-Improving 机制，Memory/Skill/Nudge Engine 三大子系统深度解析 |
+| Harness之后-Skills与可控工程化落地 | Agent Skills与Harness Engineering，Agent工程化落地方案 |
 | [从AgentLoop深度拆解MiniCode](docs/Agent%E6%99%BA%E8%83%BD%E4%BD%93%E8%AE%BE%E8%AE%A1/%E4%BB%8EAgentLoop%E6%B7%B1%E5%BA%A6%E6%8B%86%E8%A7%A3MiniCode/总结.md) | Mini Code深度拆解Claude Code核心架构，Agent Loop三大机制设计解析 |
 | [深度解析ClaudeCode-AI编码助手的底层架构与工作原理](docs/Agent%E6%99%BA%E8%83%BD%E4%BD%93%E8%AE%BE%E8%AE%A1/%E6%B7%B1%E5%BA%A8%E6%9E%90ClaudeCode-AI%E7%BC%96%E7%A0%81%E5%8A%A9%E6%89%8B%E7%9A%84%E5%BA%95%E5%B1%82%E6%9E%B6%E6%9E%84%E4%B8%8E%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/总结.md) | 深度解析Claude Code核心架构，Agent系统、Prompt系统、Memory系统、上下文管理、Hooks扩展机制 |
 | Anthropic-12个生产级Agent-MCP设计模式 | Anthropic官方MCP设计模式，Agent生产级连接，5组12个模式 |
 | SkillClaw-高德团队开源技能进化框架 | 高德团队开源的技能集体进化框架，双循环架构实现Agent自动进化 |
-| [从PRD到可运行代码-AI软件开发全流水线重构实践](docs/Agent%E6%99%BA%E8%83%BD%E4%BD%93%E8%AE%BE%E8%AE%A1/%E4%BB%8EPRD%E5%88%B0%E5%8F%AF%E8%BF%90%E8%A1%8C%E4%BB%A3%E7%A0%81-AI%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%85%A8%E6%B5%81%E6%B0%B4%E7%BA%BF%E9%87%8D%E6%9E%84%E5%AE%9E%E8%B7%B5/%E6%80%BB%E7%BB%93.md) | 九层分层架构+五大专属Agent，从PRD到可交付的全链路自动化闭环 |
-| Personal-AI-Infrastructure让AI辅助人类工作 | AI辅助人类工作的基础设施框架，记忆增强、多Agent协调、可观测性 |
-| [从ComputerUse到DatacenterUse-AI-Agent像调用函数一样驱动数据中心](docs/Agent%E6%99%BA%E8%83%BD%E4%BD%93%E8%AE%BE%E8%AE%A1/%E4%BB%8EComputerUse%E5%88%B0DatacenterUse-AI-Agent%E5%83%8F%E8%B0%83%E7%94%A8%E5%87%BD%E6%95%B0%E4%B8%80%E6%A0%B7%E9%A9%B1%E5%8A%A8%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83/总结.md) | AKernel架构，AI Agent像调用函数一样驱动数据中心的算力 |
+| 从PRD到可运行代码-AI软件开发全流水线重构实践 | 九层分层架构+五大专属Agent，从PRD到可交付的全链路自动化闭环 |
 
-### Harness工程 (5篇)
-| 文章 | 简介 |
-|------|------|
-| [Agent总跑偏从Prompt到Harness彻底搞懂AI执行稳定的核心逻辑](docs/Harness%E5%B7%A5%E7%A8%8B/Agent%E6%80%BB%E8%B5%B0%E5%81%8F%E4%BB%8EPrompt%E5%88%B0Harness%E5%BD%BB%E5%BA%95%E6%90%9E%E6%87%82AI%E6%89%A7%E8%A1%8C%E7%A8%B3%E5%AE%9A%E7%9A%84%E6%A0%B8%E5%BF%83%E9%80%BB%E8%BE%91/%E6%80%BB%E7%BB%93.md) | 从Prompt到Harness，三层工程化防护圈让Agent稳定执行 |
-| [Harness之后-Skills与可控工程化落地](docs/Harness%E5%B7%A5%E7%A8%8B/Harness%E4%B9%8B%E5%90%8E-Skills%E4%B8%8E%E5%8F%AF%E6%8E%A7%E5%B7%A5%E7%A8%8B%E5%8C%96%E8%90%BD%E5%9C%B0/%E6%80%BB%E7%BB%93.md) | Agent Skills与Harness Engineering七组件，Agent工程化落地方案 |
-| [Qoder工程实践-Harness-Engineering指南](docs/Harness%E5%B7%A5%E7%A8%8B/Qoder%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5-Harness-Engineering%E6%8C%87%E5%8D%97/%E6%80%BB%E7%BB%93.md) | 仓库是Agent的操作系统，层级约束验证、上下文管理等Harness核心机制 |
-| [一文讲清Agent-Model-Harness](docs/Harness%E5%B7%A5%E7%A8%8B/%E4%B8%80%E6%96%87%E8%AE%B2%E6%B8%85Agent-Model-Harness/%E6%80%BB%E7%BB%93.md) | Agent = Model + Harness，Harness工程的核心公式与五大组件 |
-| [从玩具到生产力-用真实项目讲透AI-Agent的Harness-Engineering](docs/Harness%E5%B7%A5%E7%A8%8B/%E4%BB%8E%E7%8E%A9%E5%85%B7%E5%88%B0%E7%94%9F%E4%BA%A7%E5%8A%9B-%E7%94%A8%E7%9C%9F%E5%AE%9E%E9%A1%B9%E7%9B%AE%E8%AE%B2%E9%80%8FAI-Agent%E7%9A%84Harness-Engineering/%E6%80%BB%E7%BB%93.md) | Harness Engineering定义、架构坐标系、控制面核心概念详解 |
-
-### 记忆系统Memory (4篇)
+### 记忆系统Memory (5篇)
 | 文章 | 简介 |
 |------|------|
 | 腾讯开源Agent-Memory-Token降低61% | 上下文卸载+Mermaid任务画布，Token消耗降低61% |
 | Cognee-6行代码搞定AI记忆 | 16K Star 的开源知识引擎，向量+图双引擎驱动 |
 | MemOS-Hermes记忆外挂插件 | Hermes Agent 的记忆系统外挂方案 |
 | memory-architecture-thinking | Agent Memory 的本质与核心设计思路 |
-### RAG检索增强 (13篇)
+| [给AI建个大脑-知识图谱治好失忆症](docs/%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9FMemory/%E7%BB%99AI%E5%BB%BA%E4%B8%AA%E5%A4%A7%E8%84%91-%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E6%B2%BB%E5%A5%BD%E5%A4%B1%E5%BF%86%E7%97%87/%E6%80%BB%E7%BB%93.md) | 结构化知识图谱让AI记忆可查询、可验证、可组合 |
+### RAG检索增强 (12篇)
 | 文章 | 简介 |
 |------|------|
 | PageIndex无向量RAG-目录树搜索 | 无向量、基于推理的 RAG 系统，98.7%准确率颠覆传统方案 |
@@ -79,7 +66,6 @@ ai-optimization-solutions/
 | 从60到94-11个进阶RAG策略 | 11个进阶RAG策略，从60%提升到94%准确率 |
 | codegraph-rust-纯Rust实现的代码GraphRAG | 100% Rust 实现代码知识图谱，AST高速解析 + SurrealDB，打造AI代码助手超强大脑 |
 | RAG深度解析与五大框架对比 | RAG核心原理、技术拆解及Haystack/LlamaIndex/LangChain/Dify/FAISS五大框架对比 |
-| 混合搜索+重排序RAG生产环境检索精度提升实战解析 | BM25+稠密向量混合搜索，Cross-Encoder重排序，三阶段生产级流水线 |
 ### LLM网关架构 (1篇)
 | 文章 | 简介 |
 |------|------|
