@@ -45,7 +45,7 @@ ai-optimization-solutions/
 | Personal-AI-Infrastructure让AI辅助人类工作 | 个人AI基础设施，让AI像基础设施一样辅助日常工作 |
 | 从ComputerUse到DatacenterUse-AI-Agent像调用函数一样驱动数据中心 | AI Agent从Computer Use到Datacenter Use的演进，像调用函数一样驱动数据中心 |
 
-### Harness工程 (5篇)
+### Harness工程 (6篇)
 | 文章 | 简介 |
 |------|------|
 | 一文讲清Agent-Model-Harness | Agent = Model + Harness，Harness 工程的本质与核心组件解析 |
