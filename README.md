@@ -80,7 +80,7 @@ ai-optimization-solutions/
 | RAG深度解析与五大框架对比 | RAG核心原理、技术拆解及Haystack/LlamaIndex/LangChain/Dify/FAISS五大框架对比 |
 | 混合搜索+重排序RAG生产环境检索精度提升实战解析 | 混合搜索+重排序策略，RAG生产环境检索精度提升实战 |
 
-### LLM网关架构 (1篇)
+### LLM网关架构 (2篇)
 | 文章 | 简介 |
 |------|------|
 | LLM-Gateway生产级架构设计 | 三层架构、四大路由策略、四层故障降级 |
