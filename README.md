@@ -65,6 +65,7 @@ ai-optimization-solutions/
 | MemOS-Hermes记忆外挂插件 | Hermes Agent 的记忆系统外挂方案 |
 | memory-architecture-thinking | Agent Memory 的本质与核心设计思路 |
 | [给AI建个大脑-知识图谱治好失忆症](docs/%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9FMemory/%E7%BB%99AI%E5%BB%BA%E4%B8%AA%E5%A4%A7%E8%84%91-%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E6%B2%BB%E5%A5%BD%E5%A4%B1%E5%BF%86%E7%97%87/%E6%80%BB%E7%BB%93.md) | 结构化知识图谱让AI记忆可查询、可验证、可组合 |
+| AI-Agent不再失忆的新思路 | GitHub 3454 Stars 的 agentmemory 持久化记忆系统，LongMemEval-S 基准 95.2% 检索准确率 |
 
 ### RAG检索增强 (13篇)
 | 文章 | 简介 |
