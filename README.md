@@ -16,7 +16,7 @@ ai-optimization-solutions/
 - `原文.md` — 原始文章内容
 - `总结.md` — 整理后的核心要点
 ## 内容概览
-### AI编程工具-Skills (8篇)
+### AI编程工具-Skills (9篇)
 | 文章 | 简介 |
 |------|------|
 | 浏览器自动化-从GUI到OpenCLI | 放弃不稳定的UI自动化，用API请求复现解决浏览器自动化难题 |
@@ -26,6 +26,7 @@ ai-optimization-solutions/
 | Book2Skill重新定义RAG把PDF变成Claude的skill | 把PDF文档转化为AI可调用的结构化技能包 |
 | Alumnium-AI端到端自动化测试 | AI 驱动端到端测试框架，支持自然语言生成测试用例和断言 |
 | MiniMax-Skills-AI编程技能包 | MiniMax 官方的生产级开发技能包 |
+| Deep-Teach让AI编程时自动输出专家级技术解析 | 从"代做"到"教做"，AI编程Skill每步自动输出专家级技术解析卡片 |
 | html-anything开源让你感受ClaudeCode作者提到的HTML效果 | 开源 HTML 优化工具，告别 AI 生成代码的"HTML味" |
 
 ### Agent智能体设计 (16篇)
@@ -36,7 +37,6 @@ ai-optimization-solutions/
 | Codex数据智能体-六层上下文架构 | OpenAI 内部数据智能体的六层上下文架构 |
 | 吃透Agent三大范式 | ReAct、Plan-and-Execute、Reflection三大范式深度解析 |
 | Subagents指南-Agent-Registry与Task-Dispatcher | LangChain Subagents模式，中心化多智能体协作架构详解 |
-| [深入源码Hermes-Agent如何实现Self-Improving](docs/Agent%E6%99%BA%E8%83%BD%E4%BD%93%E8%AE%A1%E8%AE%A1/%E6%B7%B1%E5%85%A5%E6%BA%90%E7%A0%81Hermes-Agent%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0Self-Improving/%E6%80%BB%E7%BB%93.md) | Hermes Agent Self-Improving 机制，Memory/Skill/Nudge Engine 三大子系统深度解析 |
 | [从AgentLoop深度拆解MiniCode](docs/Agent%E6%99%BA%E8%83%BD%E4%BD%93%E8%AE%A1%E8%AE%A1/%E4%BB%8EAgentLoop%E6%B7%B1%E5%BA%A6%E6%8B%86%E8%A7%A3MiniCode/%E6%80%BB%E7%BB%93.md) | Mini Code深度拆解Claude Code核心架构，Agent Loop三大机制设计解析 |
 | [深度解析ClaudeCode-AI编码助手的底层架构与工作原理](docs/Agent%E6%99%BA%E8%83%BD%E4%BD%93%E8%AE%A1%E8%AE%A1/%E6%B7%B1%E5%BA%A6%E6%9E%90ClaudeCode-AI%E7%BC%96%E7%A0%81%E5%8A%A9%E6%89%8B%E7%9A%84%E5%BA%95%E5%B1%82%E6%9E%B6%E6%9E%84%E4%B8%8E%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/%E6%80%BB%E7%BB%93.md) | 深度解析Claude Code核心架构，Agent系统、Prompt系统、Memory系统、上下文管理、Hooks扩展机制 |
 | Anthropic-12个生产级Agent-MCP设计模式 | Anthropic官方MCP设计模式，Agent生产级连接，5组12个模式 |
@@ -89,6 +89,7 @@ ai-optimization-solutions/
 | 文章 | 简介 |
 |------|------|
 | LLM-Gateway生产级架构设计 | 三层架构、四大路由策略、四层故障降级 |
+| Transformer注意力机制8分钟讲清楚 | 自注意力、多头注意力、Q/K/V向量、编码器/解码器架构深度解析 |
 
 ### AI工具 (8篇)
 | 文章 | 简介 |
