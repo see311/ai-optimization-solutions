@@ -45,8 +45,8 @@ ai-optimization-solutions/
 | Personal-AI-Infrastructure让AI辅助人类工作 | 个人AI基础设施，让AI像基础设施一样辅助日常工作 |
 | 从ComputerUse到DatacenterUse-AI-Agent像调用函数一样驱动数据中心 | AI Agent从Computer Use到Datacenter Use的演进，像调用函数一样驱动数据中心 |
 | 工作流的Skill怎么写-从7个顶级Skill提炼模式与最佳实践 | 从7个顶级Skill提炼5种设计模式（线性流程、决策树+按需加载、循环迭代、接力棒循环、多阶段+检查点）+思维框架特殊模式，通用写作技巧，模式选择决策树 |
-| [生产级大模型应用后端架构设计指南-从入门到实战](docs/Agent%E6%99%BA%E8%83%BD%E4%BD%93%E8%AE%BE%E8%AE%A1/%E7%94%9F%E4%BA%A7%E7%BA%A7%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BA%94%E7%94%A8%E5%90%8E%E7%AB%AF%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97/%E7%94%9F%E4%BA%A7%E7%BA%A7%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BA%94%E7%94%A8%E5%90%8E%E7%AB%AF%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97-%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E6%88%98.md) | 生产级大模型应用后端架构设计，涵盖四层架构、可观测性、成本管控、容错容灾等 | - | 今日头条 |
-| 生产级AI-Agent架构详解 | 生产级AI Agent六层架构设计，OODA闭环、核心组件详解、技术选型与设计原则 | - | 今日头条（视频） |
+| [生产级大模型应用后端架构设计指南-从入门到实战](docs/Agent%E6%99%BA%E8%83%BD%E4%BD%93%E8%AE%BE%E8%AE%A1/%E7%94%9F%E4%BA%A7%E7%BA%A7%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BA%94%E7%94%A8%E5%90%8E%E7%AB%AF%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97/%E7%94%9F%E4%BA%A7%E7%BA%A7%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BA%94%E7%94%A8%E5%90%8E%E7%AB%AF%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97-%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E6%88%98.md) | 生产级大模型应用后端架构设计，涵盖四层架构、可观测性、成本管控、容错容灾等 |
+| 生产级AI-Agent架构详解 | 生产级AI Agent六层架构设计，OODA闭环、核心组件详解、技术选型与设计原则 |
 
 ### Harness工程 (6篇)
 | 文章 | 简介 |
