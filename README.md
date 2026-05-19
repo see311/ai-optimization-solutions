@@ -28,7 +28,7 @@ ai-optimization-solutions/
 | MiniMax-Skills-AI编程技能包 | MiniMax 官方的生产级开发技能包 |
 | html-anything开源让你感受ClaudeCode作者提到的HTML效果 | 开源 HTML 优化工具，告别 AI 生成代码的"HTML味" |
 
-### Agent智能体设计 (15篇)
+### Agent智能体设计 (16篇)
 | 文章 | 简介 |
 |------|------|
 | NekroAgent跨平台Agent框架 | 开源跨平台多用户Agent框架，支持QQ/Discord/Minecraft/Bilibili等多平台接入 |
@@ -108,4 +108,3 @@ ai-optimization-solutions/
 - 每篇文章按 `原文.md` + `总结.md` 结构保存
 - 总结末尾标注使用的模型（如"总结使用: xxx模型"）
 - 文件夹名称用简短总结命名
-
