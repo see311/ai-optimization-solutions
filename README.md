@@ -31,7 +31,7 @@ ai-optimization-solutions/
 | Deep-Teach让AI编程时自动输出专家级技术解析 | 从"代做"到"教做"，AI编程Skill每步自动输出专家级技术解析卡片 |
 | html-anything开源让你感受ClaudeCode作者提到的HTML效果 | 开源 HTML 优化工具，告别 AI 生成代码的"HTML味" |
 
-### Agent智能体设计 (16篇)
+### Agent智能体设计 (17篇)
 | 文章 | 简介 |
 |------|------|
 | NekroAgent跨平台Agent框架 | 开源跨平台多用户Agent框架，支持QQ/Discord/Minecraft/Bilibili等多平台接入 |
@@ -50,6 +50,7 @@ ai-optimization-solutions/
 | Skill刚开源就爆火-Agent联网能力直接拉满 | Web Access Skill 开源，CDP 协议让 Agent 联网能力拉满 |
 | [生产级大模型应用后端架构设计指南-从入门到实战](docs/Agent%E6%99%BA%E8%83%BD%E4%BD%93%E8%AE%BE%E8%AE%A1/%E7%94%9F%E4%BA%A7%E7%BA%A7%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BA%94%E7%94%A8%E5%90%8E%E7%AB%AF%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97/%E7%94%9F%E4%BA%A7%E7%BA%A7%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BA%94%E7%94%A8%E5%90%8E%E7%AB%AF%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97-%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E6%88%98.md) | 生产级大模型应用后端架构设计，涵盖四层架构、可观测性、成本管控、容错容灾等 |
 | 生产级AI-Agent架构详解 | 生产级AI Agent六层架构设计，OODA闭环、核心组件详解、技术选型与设计原则 |
+| [2.9K Star！这个工具让 Agent 查代码快了 200 倍！](./docs/Agent智能体设计/Semble-让Agent查代码快200倍.md) | Semble 专为 Agent 打造的代码搜索库，毫秒级响应，2k Token达94%召回率，节省98% Token |
 
 ### Harness工程 (6篇)
 | 文章 | 简介 |
