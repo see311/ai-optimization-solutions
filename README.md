@@ -29,7 +29,7 @@ ai-optimization-solutions/
 | Deep-Teach让AI编程时自动输出专家级技术解析 | 从"代做"到"教做"，AI编程Skill每步自动输出专家级技术解析卡片 |
 | html-anything开源让你感受ClaudeCode作者提到的HTML效果 | 开源 HTML 优化工具，告别 AI 生成代码的"HTML味" |
 
-### Agent智能体设计 (16篇)
+### Agent智能体设计 (17篇)
 | 文章 | 简介 |
 |------|------|
 | NekroAgent跨平台Agent框架 | 开源跨平台多用户Agent框架，支持QQ/Discord/Minecraft/Bilibili等多平台接入 |
