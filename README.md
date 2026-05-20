@@ -16,9 +16,11 @@ ai-optimization-solutions/
 - `原文.md` — 原始文章内容
 - `总结.md` — 整理后的核心要点
 ## 内容概览
-### AI编程工具-Skills (9篇)
+### AI编程工具-Skills (10篇)
 | 文章 | 简介 |
 |------|------|
+| 有了这个Skill搜索效率翻倍 | Agent Reach技能，让AI代理获得"互联网超能力"，14个平台全覆盖 |
+
 | 浏览器自动化-从GUI到OpenCLI | 放弃不稳定的UI自动化，用API请求复现解决浏览器自动化难题 |
 | mattpocock-skills-60K-Stars-软件工程经验封装 | 将数十年软件工程经验封装为17个可执行Skill，60K+ Stars神作 |
 | 7个AI前端设计Skill去AI味 | 去除 AI 生成界面的"AI味"，7个实测好用的设计 Skill |
@@ -29,7 +31,7 @@ ai-optimization-solutions/
 | Deep-Teach让AI编程时自动输出专家级技术解析 | 从"代做"到"教做"，AI编程Skill每步自动输出专家级技术解析卡片 |
 | html-anything开源让你感受ClaudeCode作者提到的HTML效果 | 开源 HTML 优化工具，告别 AI 生成代码的"HTML味" |
 
-### Agent智能体设计 (17篇)
+### Agent智能体设计 (16篇)
 | 文章 | 简介 |
 |------|------|
 | NekroAgent跨平台Agent框架 | 开源跨平台多用户Agent框架，支持QQ/Discord/Minecraft/Bilibili等多平台接入 |
@@ -111,3 +113,4 @@ ai-optimization-solutions/
 - 每篇文章按 `原文.md` + `总结.md` 结构保存
 - 总结末尾标注使用的模型（如"总结使用: xxx模型"）
 - 文件夹名称用简短总结命名
+
