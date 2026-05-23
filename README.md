@@ -31,7 +31,7 @@ ai-optimization-solutions/
 | Deep-Teach让AI编程时自动输出专家级技术解析 | 从"代做"到"教做"，AI编程Skill每步自动输出专家级技术解析卡片 |
 | html-anything开源让你感受ClaudeCode作者提到的HTML效果 | 开源 HTML 优化工具，告别 AI 生成代码的"HTML味" |
 
-### Agent智能体设计 (18篇)
+### Agent智能体设计 (19篇)
 | 文章 | 简介 |
 |------|------|
 | NekroAgent跨平台Agent框架 | 开源跨平台多用户Agent框架，支持QQ/Discord/Minecraft/Bilibili等多平台接入 |
@@ -52,6 +52,7 @@ ai-optimization-solutions/
 | 生产级AI-Agent架构详解 | 生产级AI Agent六层架构设计，OODA闭环、核心组件详解、技术选型与设计原则 |
 | [2.9K Star！这个工具让 Agent 查代码快了 200 倍！](./docs/Agent智能体设计/Semble-让Agent查代码快200倍.md) | Semble 专为 Agent 打造的代码搜索库，毫秒级响应，2k Token达94%召回率，节省98% Token |
 | 一文吃透Prefill、Decode与KV Cache，大模型推理延迟优化必看 | Prefill算力受限→TTFT，Decode带宽受限→ITL，KV Cache缓存复用与量化优化 |
+| [85.71%胜率！TradingView + 12个AI Agent协作，这才是机构级量化](./docs/Agent智能体设计/85.71%胜率！TradingView+12个AI-Agent协作，这才是机构级量化/原文.md) | 12个AI Agent分层协作系统，TradingView Pine Script集成，85.71%胜率BTC MACD策略 |
 
 ### Harness工程 (6篇)
 | 文章 | 简介 |
