@@ -31,7 +31,7 @@ ai-optimization-solutions/
 | Deep-Teach让AI编程时自动输出专家级技术解析 | 从"代做"到"教做"，AI编程Skill每步自动输出专家级技术解析卡片 |
 | html-anything开源让你感受ClaudeCode作者提到的HTML效果 | 开源 HTML 优化工具，告别 AI 生成代码的"HTML味" |
 
-### Agent智能体设计 (21篇)
+### Agent智能体设计 (22篇)
 | 文章 | 简介 |
 |------|------|
 | NekroAgent跨平台Agent框架 | 开源跨平台多用户Agent框架，支持QQ/Discord/Minecraft/Bilibili等多平台接入 |
@@ -56,6 +56,7 @@ ai-optimization-solutions/
 | [吃透Agent Runtime九大核心设计，从基础跑通到工业级稳定落地](./docs/Agent%E6%99%BA%E8%83%BD%E4%BD%93%E8%AE%BE%E8%AE%A1/%E5%90%83%E9%80%8FAgent-Runtime%E4%B9%9D%E5%A4%A7%E6%A0%B8%E5%BF%83%E8%AE%BE%E8%AE%A1%EF%BC%8C%E4%BB%8E%E5%9F%BA%E7%A1%80%E8%B7%91%E9%80%9A%E5%88%B0%E5%B7%A5%E4%B8%9A%E7%BA%A7%E7%A8%B3%E5%AE%9A%E8%90%BD%E5%9C%B0/原文.md) | Agent Runtime九大核心设计：Tool-Calling、进度外化、DAG任务调度、上下文压缩、子智能体隔离、技能注入、异步执行、多智能体团队、协作协议 |
 
 | [搭建长效AI记忆四层体系，让人工智能体告别"金鱼式健忘"](docs/Agent智能体设计/搭建长效AI记忆四层体系-让人工智能体告别金鱼式健忘/原文.md) | 四层记忆体系从显性预置到Dreaming梦境迭代，12步落地流程让AI告别金鱼式健忘 |
+| [反哺RAG-SkillGraph把skill组装起来了](docs/Agent智能体设计/反哺RAG-SkillGraph把skill组装起来了/原文.md) | SkillGraph有向技能图+图感知检索+图进化闭环，7B模型碾压GPT-4o 42.6分 |
 
 ### Harness工程 (6篇)
 | 文章 | 简介 |
