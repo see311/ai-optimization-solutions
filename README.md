@@ -79,7 +79,7 @@ ai-optimization-solutions/
 | [给AI建个大脑-知识图谱治好失忆症](docs/%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9FMemory/%E7%BB%99AI%E5%BB%BA%E4%B8%AA%E5%A4%A7%E8%84%91-%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E6%B2%BB%E5%A5%BD%E5%A4%B1%E5%BF%86%E7%97%87/%E6%80%BB%E7%BB%93.md) | 结构化知识图谱让AI记忆可查询、可验证、可组合 |
 | AI-Agent不再失忆的新思路 | GitHub 3454 Stars 的 agentmemory 持久化记忆系统，LongMemEval-S 基准 95.2% 检索准确率 |
 
-### RAG检索增强 (14篇)
+### RAG检索增强 (15篇)
 | 文章 | 简介 |
 |------|------|
 | PageIndex无向量RAG-目录树搜索 | 无向量、基于推理的 RAG 系统，98.7%准确率颠覆传统方案 |
@@ -96,6 +96,7 @@ ai-optimization-solutions/
 | RAG深度解析与五大框架对比 | RAG核心原理、技术拆解及Haystack/LlamaIndex/LangChain/Dify/FAISS五大框架对比 |
 | 混合搜索+重排序RAG生产环境检索精度提升实战解析 | 混合搜索+重排序策略，RAG生产环境检索精度提升实战 |
 | 从粗召回到精排-Embedding与Reranker撑起检索系统 | Embedding+Reranker两阶段架构深度解析，粗召回与精排的配合与训练 |
+| [知识库分层编排-从RAG到Agent-native-Knowledge-Context-Layer](docs/RAG%E6%A3%80%E7%B4%A2%E5%A2%9E%E5%BC%BA/%E7%9F%A5%E8%AF%86%E5%BA%93%E5%88%86%E5%B1%82%E7%BC%96%E6%8E%92-%E4%BB%8ERAG%E5%88%B0Agent-native-Knowledge-Context-Layer/%E6%80%BB%E7%BB%93.md) | 金字塔五层知识架构(L1原则-L5经验)+7种跨层边+角色访问矩阵，Pyramid+RAG混合方案Hit@3=89%优于纯RAG |
 
 ### LLM网关架构 (2篇)
 | 文章 | 简介 |
